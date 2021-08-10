@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-area {
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-image: url(../images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.hero-area .row{
+    display: flex;
+    align-items: center;
+}
+.slider-left h1{
+    font-weight: bolder;
+    font-size: 48px;
+    color: #FF582A;
+}
+.slider-btn{
+    color: #fff;
+    border: 1px solid white;
+}
+.slider-btn:hover{
+    background-color: #fff;
+    color: #FF582A;
+    
+}
+
+.about-section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.read-more-btn{
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    background-color: #FF582A;
+}
+.read-more-btn:hover{
+    color: #FF582A;
+    border: 1px solid #FF582A;
+    background-color: #fff;
+}
+
+.teacher-section {
+    background-image: url(../images/teacher-bg.png);
+    background-size: 100% 100%;
+    padding: 125px 0;
+    color: #ffffff;
+}
+
+.teacher-img{
+    border-radius: 50%;
+    padding: 10px;
+}
+.teacher-btn{
+    
+    color: #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    border: 1px solid #fff;
+
+}
+.teacher-btn:hover{
+    color: black;
+    background-color: #fff;
+}
+.get-in-touch {
+    background-image: url(../images/footer-bg.png);
+    background-size: cover;
+    background-position: top;
+    padding-top: 125px;
+}
+.heading-container{
+    text-align: center;
+    color: #fff;
+    
+}
+.heading-container h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+.get-in-touch input{
+    width: 100%;
+    border: none;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    background-color: #fef2ec;
+    outline: none;
+    color: #101010;
+}
+.get-in-touch button{
+    outline: none;
+    display: inline-block;
+    padding: 10px 65px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin: auto;
+}
+.footer-bootom h2{
+    color: #fff;
+    font-weight: 800;
+}
+.footer-bootom p{
+    color: #fff;
+}
